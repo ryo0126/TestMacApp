@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1DF44823B645A000C351FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DF44723B645A000C351FD /* AppDelegate.swift */; };
+		2A1DF44A23B645A000C351FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DF44923B645A000C351FD /* ViewController.swift */; };
+		2A1DF44C23B645A100C351FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1DF44B23B645A100C351FD /* Assets.xcassets */; };
+		2A1DF44F23B645A100C351FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1DF44D23B645A100C351FD /* Main.storyboard */; };
+		2A1DF45B23B645A100C351FD /* DecimalConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DF45A23B645A100C351FD /* DecimalConverterTests.swift */; };
+		2A1DF46623B645A100C351FD /* DecimalConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DF46523B645A100C351FD /* DecimalConverterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1DF45723B645A100C351FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1DF43C23B645A000C351FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1DF44323B645A000C351FD;
+			remoteInfo = DecimalConverter;
+		};
+		2A1DF46223B645A100C351FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1DF43C23B645A000C351FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1DF44323B645A000C351FD;
+			remoteInfo = DecimalConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A1DF44423B645A000C351FD /* DecimalConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecimalConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1DF44723B645A000C351FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A1DF44923B645A000C351FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A1DF44B23B645A100C351FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A1DF44E23B645A100C351FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A1DF45023B645A100C351FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1DF45123B645A100C351FD /* DecimalConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DecimalConverter.entitlements; sourceTree = "<group>"; };
+		2A1DF45623B645A100C351FD /* DecimalConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecimalConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1DF45A23B645A100C351FD /* DecimalConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConverterTests.swift; sourceTree = "<group>"; };
+		2A1DF45C23B645A100C351FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1DF46123B645A100C351FD /* DecimalConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecimalConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1DF46523B645A100C351FD /* DecimalConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConverterUITests.swift; sourceTree = "<group>"; };
+		2A1DF46723B645A100C351FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1DF44123B645A000C351FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1DF45323B645A100C351FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1DF45E23B645A100C351FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1DF43B23B645A000C351FD = {
+			isa = PBXGroup;
+			children = (
+				2A1DF44623B645A000C351FD /* DecimalConverter */,
+				2A1DF45923B645A100C351FD /* DecimalConverterTests */,
+				2A1DF46423B645A100C351FD /* DecimalConverterUITests */,
+				2A1DF44523B645A000C351FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1DF44523B645A000C351FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1DF44423B645A000C351FD /* DecimalConverter.app */,
+				2A1DF45623B645A100C351FD /* DecimalConverterTests.xctest */,
+				2A1DF46123B645A100C351FD /* DecimalConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1DF44623B645A000C351FD /* DecimalConverter */ = {
+			isa = PBXGroup;
+			children = (
+				2A1DF44723B645A000C351FD /* AppDelegate.swift */,
+				2A1DF44923B645A000C351FD /* ViewController.swift */,
+				2A1DF44B23B645A100C351FD /* Assets.xcassets */,
+				2A1DF44D23B645A100C351FD /* Main.storyboard */,
+				2A1DF45023B645A100C351FD /* Info.plist */,
+				2A1DF45123B645A100C351FD /* DecimalConverter.entitlements */,
+			);
+			path = DecimalConverter;
+			sourceTree = "<group>";
+		};
+		2A1DF45923B645A100C351FD /* DecimalConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1DF45A23B645A100C351FD /* DecimalConverterTests.swift */,
+				2A1DF45C23B645A100C351FD /* Info.plist */,
+			);
+			path = DecimalConverterTests;
+			sourceTree = "<group>";
+		};
+		2A1DF46423B645A100C351FD /* DecimalConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1DF46523B645A100C351FD /* DecimalConverterUITests.swift */,
+				2A1DF46723B645A100C351FD /* Info.plist */,
+			);
+			path = DecimalConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1DF44323B645A000C351FD /* DecimalConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1DF46A23B645A100C351FD /* Build configuration list for PBXNativeTarget "DecimalConverter" */;
+			buildPhases = (
+				2A1DF44023B645A000C351FD /* Sources */,
+				2A1DF44123B645A000C351FD /* Frameworks */,
+				2A1DF44223B645A000C351FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecimalConverter;
+			productName = DecimalConverter;
+			productReference = 2A1DF44423B645A000C351FD /* DecimalConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A1DF45523B645A100C351FD /* DecimalConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1DF46D23B645A100C351FD /* Build configuration list for PBXNativeTarget "DecimalConverterTests" */;
+			buildPhases = (
+				2A1DF45223B645A100C351FD /* Sources */,
+				2A1DF45323B645A100C351FD /* Frameworks */,
+				2A1DF45423B645A100C351FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1DF45823B645A100C351FD /* PBXTargetDependency */,
+			);
+			name = DecimalConverterTests;
+			productName = DecimalConverterTests;
+			productReference = 2A1DF45623B645A100C351FD /* DecimalConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A1DF46023B645A100C351FD /* DecimalConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1DF47023B645A100C351FD /* Build configuration list for PBXNativeTarget "DecimalConverterUITests" */;
+			buildPhases = (
+				2A1DF45D23B645A100C351FD /* Sources */,
+				2A1DF45E23B645A100C351FD /* Frameworks */,
+				2A1DF45F23B645A100C351FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1DF46323B645A100C351FD /* PBXTargetDependency */,
+			);
+			name = DecimalConverterUITests;
+			productName = DecimalConverterUITests;
+			productReference = 2A1DF46123B645A100C351FD /* DecimalConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1DF43C23B645A000C351FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ryoga;
+				TargetAttributes = {
+					2A1DF44323B645A000C351FD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					2A1DF45523B645A100C351FD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2A1DF44323B645A000C351FD;
+					};
+					2A1DF46023B645A100C351FD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2A1DF44323B645A000C351FD;
+					};
+				};
+			};
+			buildConfigurationList = 2A1DF43F23B645A000C351FD /* Build configuration list for PBXProject "DecimalConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A1DF43B23B645A000C351FD;
+			productRefGroup = 2A1DF44523B645A000C351FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1DF44323B645A000C351FD /* DecimalConverter */,
+				2A1DF45523B645A100C351FD /* DecimalConverterTests */,
+				2A1DF46023B645A100C351FD /* DecimalConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1DF44223B645A000C351FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1DF44C23B645A100C351FD /* Assets.xcassets in Resources */,
+				2A1DF44F23B645A100C351FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1DF45423B645A100C351FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1DF45F23B645A100C351FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1DF44023B645A000C351FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1DF44A23B645A000C351FD /* ViewController.swift in Sources */,
+				2A1DF44823B645A000C351FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1DF45223B645A100C351FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1DF45B23B645A100C351FD /* DecimalConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1DF45D23B645A100C351FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1DF46623B645A100C351FD /* DecimalConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A1DF45823B645A100C351FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1DF44323B645A000C351FD /* DecimalConverter */;
+			targetProxy = 2A1DF45723B645A100C351FD /* PBXContainerItemProxy */;
+		};
+		2A1DF46323B645A100C351FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1DF44323B645A000C351FD /* DecimalConverter */;
+			targetProxy = 2A1DF46223B645A100C351FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A1DF44D23B645A100C351FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1DF44E23B645A100C351FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A1DF46823B645A100C351FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A1DF46923B645A100C351FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A1DF46B23B645A100C351FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DecimalConverter/DecimalConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecimalConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryoga.DecimalConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A1DF46C23B645A100C351FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DecimalConverter/DecimalConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecimalConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryoga.DecimalConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A1DF46E23B645A100C351FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecimalConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryoga.DecimalConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecimalConverter.app/Contents/MacOS/DecimalConverter";
+			};
+			name = Debug;
+		};
+		2A1DF46F23B645A100C351FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecimalConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryoga.DecimalConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecimalConverter.app/Contents/MacOS/DecimalConverter";
+			};
+			name = Release;
+		};
+		2A1DF47123B645A100C351FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecimalConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryoga.DecimalConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DecimalConverter;
+			};
+			name = Debug;
+		};
+		2A1DF47223B645A100C351FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecimalConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryoga.DecimalConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DecimalConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1DF43F23B645A000C351FD /* Build configuration list for PBXProject "DecimalConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1DF46823B645A100C351FD /* Debug */,
+				2A1DF46923B645A100C351FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1DF46A23B645A100C351FD /* Build configuration list for PBXNativeTarget "DecimalConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1DF46B23B645A100C351FD /* Debug */,
+				2A1DF46C23B645A100C351FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1DF46D23B645A100C351FD /* Build configuration list for PBXNativeTarget "DecimalConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1DF46E23B645A100C351FD /* Debug */,
+				2A1DF46F23B645A100C351FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1DF47023B645A100C351FD /* Build configuration list for PBXNativeTarget "DecimalConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1DF47123B645A100C351FD /* Debug */,
+				2A1DF47223B645A100C351FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1DF43C23B645A000C351FD /* Project object */;
+}
