@@ -13,6 +13,7 @@
 		2A1DF44F23B645A100C351FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1DF44D23B645A100C351FD /* Main.storyboard */; };
 		2A1DF45B23B645A100C351FD /* DecimalConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DF45A23B645A100C351FD /* DecimalConverterTests.swift */; };
 		2A1DF46623B645A100C351FD /* DecimalConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DF46523B645A100C351FD /* DecimalConverterUITests.swift */; };
+		2A1DF47423B6485100C351FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DF47323B6485100C351FD /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2A1DF46123B645A100C351FD /* DecimalConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecimalConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1DF46523B645A100C351FD /* DecimalConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConverterUITests.swift; sourceTree = "<group>"; };
 		2A1DF46723B645A100C351FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1DF47323B6485100C351FD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				2A1DF44723B645A000C351FD /* AppDelegate.swift */,
-				2A1DF44923B645A000C351FD /* ViewController.swift */,
-				2A1DF44B23B645A100C351FD /* Assets.xcassets */,
 				2A1DF44D23B645A100C351FD /* Main.storyboard */,
+				2A1DF44923B645A000C351FD /* ViewController.swift */,
+				2A1DF47323B6485100C351FD /* Model.swift */,
+				2A1DF44B23B645A100C351FD /* Assets.xcassets */,
 				2A1DF45023B645A100C351FD /* Info.plist */,
 				2A1DF45123B645A100C351FD /* DecimalConverter.entitlements */,
 			);
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1DF47423B6485100C351FD /* Model.swift in Sources */,
 				2A1DF44A23B645A000C351FD /* ViewController.swift in Sources */,
 				2A1DF44823B645A000C351FD /* AppDelegate.swift in Sources */,
 			);
